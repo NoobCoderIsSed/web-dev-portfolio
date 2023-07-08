@@ -181,17 +181,44 @@ main section {
     color: #757575;
 }
 
-.resule-subj{
+.resule-subj {
     color: var(--dark-02, #474747);
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+#cv {
+    margin-top: 0px;
+}
+
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.footer-info {
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-prg {
+    color:  #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
